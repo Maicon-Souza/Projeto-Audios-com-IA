@@ -1,4 +1,5 @@
 # Projeto-Audios-com-IA
+### Este é um projeto da disciplina de Sistemas Distribuídos que visa integrar dois agentes inteligentes (IA) a uma API
 
 ## Instalação do Projeto
 
