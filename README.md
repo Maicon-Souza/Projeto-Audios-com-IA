@@ -1,5 +1,23 @@
 # Projeto-Audios-com-IA
 
+## Instalação do Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/Maicon-Souza-Audios-com-IA.git
+2. **Navegue até a pasta onde o projeto foi clonado:**
+   ```bash
+   cd endereco-repositorio
+3 . **Entre na pasta do backend**
+
+4. **Instale as dependências:**
+   ```bash
+   python install -r requirements.txt
+   
+5. **Execute o programa:**
+      ```bash
+    python run.py
+__________________________________________________________________________________________________________
 
 ## Regras de Commit
 - **Mensagens de Commit**: Para organizar melhor o histórico do projeto e garantir uma compreensão mais clara dos commits, será utilizado um formato de mensagem que identifica o tipo do commit:
