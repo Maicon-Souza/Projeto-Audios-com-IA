@@ -17,6 +17,12 @@
    python install -r requirements.txt OU 
    python -m pip install -r requirements.txt
 
+5. **INSTALE O GERENCIADOR DE ARQUIVO USADO PELO WHISPER:**
+   (CASO NÃO TENHA É NECESSÁRIO INSTALAR O CHOCOLATTEY TAMBÉM, AMBOS PELO POWERSHELL)
+   ```bash
+   # on Windows using Chocolatey (https://chocolatey.org/)
+   choco install ffmpeg
+
    
 5. **Execute o programa:**
       ```bash
