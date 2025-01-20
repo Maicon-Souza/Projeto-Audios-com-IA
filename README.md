@@ -3,6 +3,7 @@
 
 ## Instalação do Projeto
 
+### IMPORTANTE PARA EXECUÇÃO DE ALGUMAS FERRAMENTAS A VERSÃO DO PYTHON UTILIZADA DEVE SER AS VERSÕES Python 3.8-3.11
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/Maicon-Souza-Audios-com-IA.git
@@ -13,7 +14,15 @@
 
 4. **Instale as dependências:**
    ```bash
-   python install -r requirements.txt
+   python install -r requirements.txt OU 
+   python -m pip install -r requirements.txt
+
+5. **INSTALE O GERENCIADOR DE ARQUIVO USADO PELO WHISPER:**
+   (CASO NÃO TENHA É NECESSÁRIO INSTALAR O CHOCOLATTEY TAMBÉM, AMBOS PELO POWERSHELL)
+   ```bash
+   # on Windows using Chocolatey (https://chocolatey.org/)
+   choco install ffmpeg
+
    
 5. **Execute o programa:**
       ```bash
