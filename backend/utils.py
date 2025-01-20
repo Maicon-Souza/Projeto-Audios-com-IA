@@ -1,6 +1,7 @@
 import sounddevice as sd
 from scipy.io.wavfile import write
 import os
+#import whisper
 
 def capture_audio(upload_folder, duration=5, sample_rate=16000):
     """
@@ -13,7 +14,7 @@ def capture_audio(upload_folder, duration=5, sample_rate=16000):
 
         # Caminho do arquivo
         file_path = os.path.join(upload_folder, 'captured_audio.wav')
-    
+
         # Salva o áudio em um arquivo
         write(file_path, sample_rate, audio)
         print(f"Áudio capturado e salvo em: {file_path}")

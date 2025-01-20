@@ -1,5 +1,6 @@
 from flask import Blueprint, jsonify, current_app
-from .utils import capture_audio
+from .utils import capture_audio, transcribe_audio
+import os
 
 bp = Blueprint('main', __name__)
 
