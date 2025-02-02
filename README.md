@@ -17,14 +17,18 @@
    python install -r requirements.txt OU 
    python -m pip install -r requirements.txt
 
-5. **INSTALE O GERENCIADOR DE ARQUIVO USADO PELO WHISPER:**
+5. **INSTALE O PYTORCH PARA A VERSÃO 3.9 DO PYTHON:**
+   ```bash
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+6. **INSTALE O GERENCIADOR DE ARQUIVO USADO PELO WHISPER:**
    (CASO NÃO TENHA É NECESSÁRIO INSTALAR O CHOCOLATTEY TAMBÉM, AMBOS PELO POWERSHELL)
    ```bash
    # on Windows using Chocolatey (https://chocolatey.org/)
    choco install ffmpeg
 
    
-5. **Execute o programa:**
+7. **Execute o programa:**
       ```bash
     python run.py
 __________________________________________________________________________________________________________
