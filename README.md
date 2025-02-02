@@ -3,7 +3,7 @@
 
 ## Instalação do Projeto
 
-### IMPORTANTE PARA EXECUÇÃO DE ALGUMAS FERRAMENTAS A VERSÃO DO PYTHON UTILIZADA DEVE SER A VERÇÃO Python 3.9
+### IMPORTANTE PARA EXECUÇÃO DE ALGUMAS FERRAMENTAS A VERSÃO DO PYTHON UTILIZADA DEVE SER A VERSÃO Python 3.9
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/Maicon-Souza-Audios-com-IA.git
