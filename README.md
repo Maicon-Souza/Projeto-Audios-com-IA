@@ -54,3 +54,6 @@ ________________________________________________________________________________
   - `"[refactor]: reorganização de métodos de manipulação de clientes"`
   - `"[test]: correção de testes para consulta de clientes ativos"`
   - `"[chore]: atualização das dependências do projeto para as versões mais recentes"`
+ 
+## Relatório
+O relatório detalhado do projeto pode ser acessado em: [Relatório do Projeto](https://docs.google.com/document/d/1G1SCv8qc4ozA8WvCNqMl6gWgwXUbTai6G4CXvlkGAKc/edit?pli=1&tab=t.0#heading=h.aczyuw2yex2w)
