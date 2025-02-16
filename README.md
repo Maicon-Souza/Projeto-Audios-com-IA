@@ -34,7 +34,7 @@
 __________________________________________________________________________________________________________
 
 ## Estrutura do Projeto
-
+```plaintext
 PROJETO-AUDIOS-COM-IA/
 ├── backend/               # Código do backend
 │   ├── __pycache__/       # Arquivos de cache do Python
@@ -52,7 +52,7 @@ PROJETO-AUDIOS-COM-IA/
 ├── README.md              # Documentação principal do projeto
 ├── requirements.txt       # Dependências do projeto
 └── run.py                 # Ponto de entrada do projeto
-
+```
 __________________________________________________________________________________________________________
 ## Regras de Commit
 - **Mensagens de Commit**: Para organizar melhor o histórico do projeto e garantir uma compreensão mais clara dos commits, será utilizado um formato de mensagem que identifica o tipo do commit:
