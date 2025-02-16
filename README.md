@@ -1,5 +1,5 @@
 # Projeto-Audios-com-IA
-### Este é um projeto da disciplina de Sistemas Distribuídos que visa integrar dois agentes inteligentes (IA) a uma API
+### Este é um projeto da disciplina de Sistemas Distribuídos que visa integrar uma IA de transcrição de áudio a uma API
 
 ## Instalação do Projeto
 
@@ -33,6 +33,27 @@
     python run.py
 __________________________________________________________________________________________________________
 
+## Estrutura do Projeto
+
+PROJETO-AUDIOS-COM-IA/
+├── backend/               # Código do backend
+│   ├── __pycache__/       # Arquivos de cache do Python
+│   ├── __init__.py
+│   ├── routes.py          # Arquivo das rotas da API
+│   └── utils.py           # Arquivo das funções de captura e transcrição 
+├── docs/                  # Documentação do projeto
+│   ├── Relatório Final - Projeto Transcrição.pdf
+│   └── Relatório RIPD.pdf
+├── uploads/               # Arquivos de áudio e transcrição
+│   ├── captured_audio.wav
+│   └── transcription.txt
+├── .gitignore             # Arquivo para ignorar arquivos no Git
+├── dockerfile             # Dockerfile para containerização
+├── README.md              # Documentação principal do projeto
+├── requirements.txt       # Dependências do projeto
+└── run.py                 # Ponto de entrada do projeto
+
+__________________________________________________________________________________________________________
 ## Regras de Commit
 - **Mensagens de Commit**: Para organizar melhor o histórico do projeto e garantir uma compreensão mais clara dos commits, será utilizado um formato de mensagem que identifica o tipo do commit:
 
